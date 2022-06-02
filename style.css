@@ -1,0 +1,555 @@
+@font-face{
+    font-family: myfont;
+    src: url(1.ttf);
+}
+html{
+    height: 100%;
+}
+body{
+    font-size: 15px;
+    font-family: myfont;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+.loc1{
+    height: 100%;
+    width: 100%;
+    background-image: url(loc111.jpg);
+    background-size: cover;
+    display: none;
+}
+.loc2{
+    height: 100%;
+    width: 100%;
+    display: none;
+    background-image: url(ocean.jpg);
+    background-size: cover;
+}
+.loc21{
+    height: 100%;
+    width: 100%;
+    display: none;
+    background-image: url(underwater.png);
+    background-size: cover;
+}
+.loc3{
+    height: 100%;
+    width: 100%;
+    display: none;
+    background-image: url(underground.jpg);
+    background-size: cover;
+}
+.loc31{
+    height: 100%;
+    width: 100%;
+    display: none;
+    background-image: url(floor.png);
+    background-size: cover;
+}
+.loc4{
+    height: 100%;
+    width: 100%;
+    display: none;
+    background-image: url(crimson.webp);
+    background-size: cover;
+}
+.loc41{
+    height: 100%;
+    width: 100%;
+    display: none;
+    background-image: url(crimson1.jpg);
+    background-size: cover;
+}
+.loc1quest{
+    height: 80px;
+    width: 80px;
+    background-color: none;
+    position: absolute;
+    left: 26%;
+    top: 34%;
+    background-image: url(arrow.png);
+    background-size: cover;
+}
+.loc2quest{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    background-color: none;
+    left: 25%;
+    top: 90%;
+    background-image: url(arrow.png);
+    background-size: cover;
+}
+.loc3quest{
+    height: 90px;
+    width: 90px;
+    background-color: none;
+    position: absolute;
+    left: 2%;
+    top: 81%;
+    background-image: url(arrow1.png);
+    background-size: cover;
+}
+.buff{
+    top: 1%;
+    left: 1%;
+    height: 50px;
+    width: 50px;
+    background-image: url(weapon.png);
+    background-size: cover;
+    position: absolute;
+    display: none;
+}
+.buff1{
+    top: 1%;
+    left: 4%;
+    height: 50px;
+    width: 50px;
+    background-image: url(ironskin.png);
+    background-size: cover;
+    position: absolute;
+    display: none;
+}
+.window1{
+    position: absolute;
+    left: 35%;
+    top: 1%;
+    width: 500px;
+    height: 100px;
+    background-color: #426ff5;
+    opacity: 80%;
+    border-radius: 10%;
+    text-shadow: 0px 0px 3px darkblue;
+    display: block;
+}
+.window2{
+    position: absolute;
+    left: 35%;
+    top: 1%;
+    width: 500px;
+    height: 100px;
+    background-color: #426ff5;
+    opacity: 80%;
+    border-radius: 10%;
+    text-shadow: 0px 0px 3px darkblue;
+    display: block;
+}
+.window3{
+    position: absolute;
+    left: 35%;
+    top: 1%;
+    width: 500px;
+    height: 100px;
+    background-color: #426ff5;
+    opacity: 80%;
+    border-radius: 10%;
+    text-shadow: 0px 0px 3px darkblue;
+    display: block;
+}
+.window4{
+    position: absolute;
+    left: 35%;
+    top: 1%;
+    width: 500px;
+    height: 100px;
+    background-color: #426ff5;
+    opacity: 80%;
+    border-radius: 10%;
+    text-shadow: 0px 0px 3px darkblue;
+    display: block;
+}
+.btn{
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    background-color: #426ff5;
+    left: 55%;
+    top: 13%;
+    border-radius: 10%;
+    display: none;
+}
+.btn1{
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    background-color: #426ff5;
+    left: 55%;
+    top: 13%;
+    border-radius: 10%;
+    
+}
+.btn2{
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    background-color: #426ff5;
+    left: 55%;
+    top: 13%;
+    border-radius: 10%;  
+}
+.btn3{
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    background-color: #426ff5;
+    left: 55%;
+    top: 13%;
+    border-radius: 10%;
+    display: none;  
+}
+.btn4{
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    background-color: #426ff5;
+    left: 55%;
+    top: 13%;
+    border-radius: 10%;
+    display: none;  
+}
+.btn5{
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    background-color: #426ff5;
+    left: 55%;
+    top: 13%;
+    border-radius: 10%;  
+}
+.btn6{
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    background-color: #426ff5;
+    left: 55%;
+    top: 13%;
+    border-radius: 10%;
+    display: block;  
+}
+.btn7{
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    background-color: #426ff5;
+    left: 55%;
+    top: 13%;
+    border-radius: 10%;
+    display: none;  
+}
+.btn8{
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    background-color: #426ff5;
+    left: 55%;
+    top: 13%;
+    border-radius: 10%;  
+}
+.btn9{
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    background-color: #426ff5;
+    left: 55%;
+    top: 13%;
+    border-radius: 10%;
+    display: block;  
+}
+.btn10{
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    background-color: #426ff5;
+    left: 55%;
+    top: 13%;
+    border-radius: 10%;
+    display: none;
+}
+.btn11{
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    background-color: #426ff5;
+    left: 55%;
+    top: 13%;
+    border-radius: 10%;
+    display: none;  
+}
+.btn12{
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    background-color: #426ff5;
+    left: 55%;
+    top: 13%;
+    border-radius: 10%;
+    display: none;  
+}
+.btn13{
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    background-color: #426ff5;
+    left: 55%;
+    top: 13%;
+    border-radius: 10%;
+    display: none;  
+}
+.btn14{
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    background-color: #426ff5;
+    left: 55%;
+    top: 13%;
+    border-radius: 10%;
+    display: none;  
+}
+.btn15{
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    background-color: #426ff5;
+    left: 55%;
+    top: 13%;
+    border-radius: 10%;
+    display: none;  
+}
+.btn16{
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    background-color: #426ff5;
+    left: 55%;
+    top: 13%;
+    border-radius: 10%;
+    display: none;  
+}
+.btn17{
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    background-color: #426ff5;
+    left: 55%;
+    top: 13%;
+    border-radius: 10%;
+    display: none;  
+}
+.btn18{
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    background-color: #426ff5;
+    left: 55%;
+    top: 13%;
+    border-radius: 10%;
+    display: none;  
+}
+.btn19{
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    background-color: #426ff5;
+    left: 55%;
+    top: 13%;
+    border-radius: 10%;
+    display: none;  
+}
+.btn20{
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    background-color: #426ff5;
+    left: 55%;
+    top: 13%;
+    border-radius: 10%;
+    display: none;  
+}
+.btn21{
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    background-color: #426ff5;
+    left: 55%;
+    top: 13%;
+    border-radius: 10%;
+    display: none;  
+}
+.scorediv{
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    background-color: #426ff5;
+    left: 45%;
+    top: 1%;
+    border-radius: 10%;  
+    display: none;
+}
+.scorediv1{
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    background-color: #426ff5;
+    left: 45%;
+    top: 1%;
+    border-radius: 10%;
+    display: none;  
+}
+.ok{
+    color: yellow;
+    text-shadow: 0px 0px 3px yellow;
+    margin-left: 15px;
+}
+.fish{
+    position: absolute;
+    left: -100px;
+    height: 100px;
+    width: 100px;
+    transition: 1s;
+    background-image: url(fish.png);
+    background-size: cover;
+}
+
+
+        .box {
+            background-image: url(chest.webp);
+            background-size: 100% 100%;
+            width: 350px;
+            height: 225px;
+            position: absolute;
+            background-color: black;
+            left: 300px;
+            top: 220px;     
+            box-shadow: 0px 0px 30px #6322e6;
+            transition: 1s;
+        }
+        .box1 {
+            background-image: url(chest.webp);
+            background-size: 100% 100%;
+            width: 350px;
+            height: 225px;
+            position: absolute;
+            background-color: black;
+            left: 780px;
+            top: 220px;     
+            box-shadow: 0px 0px 30px #6322e6;
+            transition: 1s;
+        }
+
+        .box2 {
+            background-image: url(chest.webp);
+            background-size: 100% 100%;
+            width: 350px;
+            height: 225px;
+            position: absolute;
+            background-color: black;
+            left: 1260px;
+            top: 220px;
+            box-shadow: 0px 0px 30px #6322e6;
+            transition: 1s;     
+        }
+
+        .box3 {
+            background-image: url(chest.webp);
+            background-size: 100% 100%;
+            width: 350px;
+            height: 225px;
+            position: absolute;
+            background-color: black;
+            left: 300px;
+            top: 520px;
+            box-shadow: 0px 0px 30px #6322e6;
+            transition: 1s;     
+        }
+
+        .box4 {
+            background-image: url(chest.webp);
+            background-size: 100% 100%;
+            width: 350px;
+            height: 225px;
+            position: absolute;
+            background-color: black;
+            left: 780px;
+            top: 520px;
+            box-shadow: 0px 0px 30px #6322e6;
+            transition: 1s;     
+        }
+
+        .box5 {
+            background-image: url(chest.webp);
+            background-size: 100% 100%;
+            width: 350px;
+            height: 225px;
+            position: absolute;
+            background-color: black;
+            left: 1260px;
+            top: 520px;
+            box-shadow: 0px 0px 30px #6322e6;
+            transition: 1s;     
+        }
+        .img{
+            width: 100%;
+            height: 100%;
+            display: none;
+        }
+
+        .img1{
+            width: 100%;
+            height: 100%;
+            display: none;
+        }
+
+        .img2{
+            width: 100%;
+            height: 100%;
+            display: none;
+        }
+
+        .img3{
+            width: 100%;
+            height: 100%;
+            display: none;
+        }
+
+        .img4{
+            width: 100%;
+            height: 100%;
+            display: none;
+        }
+
+        .img5{
+            width: 100%;
+            height: 100%;
+            display: none;
+        }
+.boss{
+    width: 230px;
+    height: 210px;
+    background-image: url(boss.webp);
+    background-size: cover;
+    position: absolute;
+    left: 40%;
+    top: 30%;
+}
+.end{
+    background-image: url(end.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: none;
+}  
+.start{
+    background-image: url(start.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.game{
+    background-image: url(game.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: none;
+}       
